@@ -31,7 +31,7 @@ To load it for every project, add the absolute path to the global config at
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["/home/snow/oc_modules/plugins/user-message-jump"]
+  "plugins": ["/home/snow/oc_tools/plugins/user-message-jump"]
 }
 ```
 

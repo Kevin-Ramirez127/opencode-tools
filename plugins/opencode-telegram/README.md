@@ -10,7 +10,8 @@ The daemon itself is a separate Go application. This plugin adds a
 - master notification switch (off by default);
 - which events to deliver: session finished, failed, interrupted, questions,
   permissions, retry status;
-- whether to include the last assistant message and the working directory;
+- whether to include child/subagent sessions, the last assistant message, and
+  the working directory;
 - security switches for **custom answers** and **new messages** (both off by
   default);
 - send a test notification.

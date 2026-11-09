@@ -4,11 +4,11 @@ A collection of plugins and tools for [OpenCode](https://opencode.ai).
 
 ## Plugins
 
-### [opencode-telegram](https://github.com/Kevin-Ramirez127/telegram-pc-remote)
+### [opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
 
 Controls the `opencode-telegram` notification daemon from inside OpenCode.
 The plugin source now lives in the
-[telegram-pc-remote](https://github.com/Kevin-Ramirez127/telegram-pc-remote)
+[opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
 repository at `plugins/opencode-telegram`.
 
 - `/telegram` (or the palette command **OpenCode Telegram notifications**)

@@ -17,10 +17,11 @@ Clicking a button uses the built-in
 
 ## Loading
 
-The repository-level `opencode.json` loads the plugin for this project:
+Load the plugin in a project's `opencode.json` or `opencode.jsonc`:
 
 ```jsonc
 {
+  "$schema": "https://opencode.ai/config.json",
   "plugins": ["./plugins/user-message-jump"]
 }
 ```
@@ -31,7 +32,7 @@ To load it for every project, add the absolute path to the global config at
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["/home/snow/oc_modules/plugins/user-message-jump"]
+  "plugins": ["/absolute/path/to/opencode-tools/plugins/user-message-jump"]
 }
 ```
 

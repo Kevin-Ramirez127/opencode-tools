@@ -4,6 +4,22 @@ A collection of plugins and tools for [OpenCode](https://opencode.ai).
 
 ## Plugins
 
+### [opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
+
+Controls the `opencode-telegram` notification daemon from inside OpenCode.
+
+- `/telegram` (or the palette command **OpenCode Telegram notifications**)
+  opens a settings picker.
+- Turn notifications on/off (off by default) and choose which events are
+  delivered: session finished/failed/interrupted, questions, permissions, and
+  retries.
+- Security switches for **custom question answers** and **new messages**, both
+  off by default.
+
+The plugin is maintained in its own repository. Use
+[https://github.com/Kevin-Ramirez127/opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
+for installation and configuration.
+
 ### [user-message-jump](plugins/user-message-jump)
 
 Adds floating navigation buttons to the session transcript:

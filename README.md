@@ -7,9 +7,6 @@ A collection of plugins and tools for [OpenCode](https://opencode.ai).
 ### [opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
 
 Controls the `opencode-telegram` notification daemon from inside OpenCode.
-The plugin source now lives in the
-[opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
-repository at `plugins/opencode-telegram`.
 
 - `/telegram` (or the palette command **OpenCode Telegram notifications**)
   opens a settings picker.
@@ -19,9 +16,9 @@ repository at `plugins/opencode-telegram`.
 - Security switches for **custom question answers** and **new messages**, both
   off by default.
 
-This repository keeps a `plugins/opencode-telegram` symlink to that checkout,
-so existing config paths such as
-`/absolute/path/to/opencode-tools/plugins/opencode-telegram` keep working.
+The plugin is maintained in its own repository. Use
+[https://github.com/Kevin-Ramirez127/opencode-telegram](https://github.com/Kevin-Ramirez127/opencode-telegram)
+for installation and configuration.
 
 ### [user-message-jump](plugins/user-message-jump)
 
